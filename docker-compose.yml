@@ -5,5 +5,5 @@ services:
     image: excalidraw/excalidraw:latest
     container_name: excalidraw
     ports:
-      - "3000:80"
+      - "3030:80"
     restart: unless-stopped
